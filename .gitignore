@@ -1,2 +1,32 @@
+# Jujutsu files
 .jj
-venv
+
+# Virtual environment
+venv/
+env/
+
+# Django files
+*.pyc
+__pycache__/
+*.sqlite3
+*.db
+.env
+.env.local
+
+# Django media and static files
+media/
+staticfiles/
+
+# Docker volumes
+postgres_data/
+redis_data/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
